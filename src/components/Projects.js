@@ -20,18 +20,15 @@ export const Projects = () => {
         </h1>
         <br />
         <p className="pprojects">
-          I have experience working with JavaScript, React.js, Node.js FireBase,
-          Git, Boostrap and more, and I am always excited to take on new
-          challenges. In my free time, I enjoy experimenting with new
-          technologies and working on personal coding projects. I am a firm
-          believer in open-source software and have contributed to several
-          open-source projects over the years.<br></br> Overall, I am a
-          dedicated and motivated developer who is passionate about technology
-          and creating elegant, efficient solutions. If you are looking for a
-          talented and committed developer for your team, I would love to hear
-          from you!
+          I'm an experienced developer proficient in JavaScript, React.js,
+          Node.js, Firebase, Git, Bootstrap, and more. I thrive on new
+          challenges, regularly experimenting with tech in my free time. I'm a
+          strong advocate for open-source projects, having contributed to
+          several. I'm dedicated, motivated, and passionate about tech, striving
+          for elegant and efficient solutions. If you need a committed developer
+          for your team, let's connect!
         </p>
-        <h2 className="h2projects">Web Pages / Apps / Design</h2>
+        <h2 className="h2projects">Web Pages / Apps / UXDesign</h2>
         <Row className="aligh-items-center">
           <Col className="colproject">
             <div className="projectdiv">

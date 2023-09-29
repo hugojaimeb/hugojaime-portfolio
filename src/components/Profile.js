@@ -20,7 +20,7 @@ export const Profile = () => {
 
           <Col xs={12} md={6} xl={7}>
             <h1 data-aos="fade-down" className="profileh1">
-              Meet Hugo Jaime: Innovative Software Developer{" "}
+              Meet Hugo Jaime Software Developer{" "}
             </h1>
             <br />
             <br />

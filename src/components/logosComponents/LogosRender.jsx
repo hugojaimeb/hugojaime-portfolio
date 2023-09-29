@@ -6,46 +6,60 @@ import {
   FaCss3,
   FaBootstrap,
 } from "react-icons/fa";
+import {
+  SiTypescript,
+  SiTailwindcss,
+  SiFirebase,
+  SiAngular,
+  SiMongodb,
+  SiPostgresql,
+} from "react-icons/si";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function LogosRender() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
-    <div className="logos-wrapper">
+    <div data-aos="fade-down" className="logos-wrapper">
       <div className="logos-container">
-        <FaReact size={100} color="aqua" />
+        <FaReact size={70} color="aqua" />
         React
       </div>
       <div className="logos-container">
-        <FaNode size={100} color="green" /> Node.js
+        <FaNode size={70} color="green" /> Node.js
       </div>
       <div className="logos-container">
-        <FaJs size={100} color="yellow" /> JavaScript
+        <FaJs size={70} color="yellow" /> JavaScript
       </div>
       <div className="logos-container">
-        <FaHtml5 size={100} color="rgb(239,96,40)" /> HTML5
+        <FaHtml5 size={70} color="rgb(239,96,40)" /> HTML5
       </div>
       <div className="logos-container">
-        <FaCss3 size={100} color="blue" /> CCS3
+        <FaCss3 size={70} color="blue" /> CCS3
       </div>
       <div className="logos-container">
-        <FaBootstrap size={100} color="rgb(122,17,243)" /> Bootstrap
+        <FaBootstrap size={70} color="rgb(122,17,243)" /> Bootstrap
       </div>
       <div className="logos-container">
-        <FaCss3 size={100} color="aqua" /> CCS3
+        <SiTypescript size={70} color="rgb(0, 122, 204)" /> TypeScript
       </div>
       <div className="logos-container">
-        <FaCss3 size={100} color="aqua" /> CCS3
+        <SiTailwindcss size={70} color="rgb(56,189,248)" /> Tailwind
       </div>
       <div className="logos-container">
-        <FaCss3 size={100} color="aqua" /> CCS3
+        <SiFirebase size={70} color="rgb(255,203,44)" /> FireBase
       </div>
       <div className="logos-container">
-        <FaCss3 size={100} color="aqua" /> CCS3
+        <SiAngular size={70} color="rgb(229,54,64)" /> Angular
       </div>
       <div className="logos-container">
-        <FaCss3 size={100} color="aqua" /> CCS3
+        <SiMongodb size={70} color="rgb(23,173,85)" /> MongoDB
       </div>
       <div className="logos-container">
-        <FaCss3 size={100} color="aqua" /> CCS3
+        <SiPostgresql size={70} color="#2f6792" /> PostgresSQL
       </div>
     </div>
   );
