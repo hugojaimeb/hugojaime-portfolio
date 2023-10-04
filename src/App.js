@@ -3,12 +3,13 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { MnavBar } from "./components/MNavBar";
 import { Banner } from "./components/Banner";
-import { Profile } from "./components/Profile";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
+// import { Profile } from "./components/Profile";
+// import { Projects } from "./components/Projects";
+// import { Contact } from "./components/Contact";
+// import { Footer } from "./components/Footer";
 import { Helmet } from "react-helmet";
-import { Footer } from "./components/Footer";
 import CubeBox from "./components/cube/CubeBox";
+import Landing from "./components/landing-page/Landing";
 
 function App() {
   return (
@@ -19,16 +20,16 @@ function App() {
         <link rel="canonical" href="http://mysite.com/example" />
         <meta name="description" content="Hugo Jaime Developer Profile" />
       </Helmet>
-      <MnavBar />
-      <Banner />
+      {/* <MnavBar />
+      <Banner /> */}
       {/* <Profile />
       <div className="divline" />
       <Projects />
       <Contact />
       <Footer />
       <div className="divline" /> */}
-
-      {/* <CubeBox /> */}
+      <Landing />
+      <CubeBox />
     </div>
   );
 }
