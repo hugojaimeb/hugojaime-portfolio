@@ -257,6 +257,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.banner-wrapper {
+  display: grid;
+  align-items: center;
 }
 
 .banner .tagline {
