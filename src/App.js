@@ -20,8 +20,8 @@ function App() {
         <link rel="canonical" href="http://mysite.com/example" />
         <meta name="description" content="Hugo Jaime Developer Profile" />
       </Helmet>
-      {/* <MnavBar />
-      <Banner /> */}
+      <MnavBar />
+      {/* <Banner />  */}
       {/* <Profile />
       <div className="divline" />
       <Projects />
